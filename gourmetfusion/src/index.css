@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  height: 100vh;
+}
+
+.nav{
+  position: static;
+  top: 10px;
+display: flex;
+height: 20%;
+background-color: aqua;align-items: center;
+width: 100%;
+}
+.left{
+  width: 30%;
+  justify-content: flex-start;
+}
+.left img{
+  height: 90px;
+  width: 250px;
+  
+}
+.right{
+  width: 70%;
+}
+.right ul{
+  display: flex;
+  list-style: none;
+  gap: 4%;
+  justify-content: flex-end;
+  padding-right: 8%;
+}
+
+.navLink{
+  text-decoration: none;
+}
+
+.ham{
+  position: absolute;
+  right: 2%;
+  height: 35px;
+  width: 35px;
+  display:none;
+  cursor: pointer;
+}
+.sideBar {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  background-color: aqua;
+  width: 35%;
+  height: 88%;
+  transition: transform 0.3s ease; 
+  z-index: 1; 
+}
+
+.sideBar ul {
+  padding: 20px;
+}
+
+.sideBar ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+
+@media (max-width: 600px){
+  .ham{
+    display: block;
+  }
+  .right{
+    display: none;
+  }
+}
