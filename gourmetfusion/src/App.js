@@ -11,9 +11,9 @@ import Sidebar from './components/Sidebar';
 
 function App() {
   const [hamBurger,setHamBurger]=useState(false);
-
+  const [temp,setTemp]=useState('about');
   return (
-    <div className="App">
+    <div className="App" >
      <Nav  hamBurger={hamBurger} setHamBurger={setHamBurger}/>
     <Sidebar  hamBurger={hamBurger} setHamBurger={setHamBurger}/>
     <Routes>
@@ -23,7 +23,6 @@ function App() {
       <Route path='/sustainability' element={<Sustainability/>}/>
       <Route path='/contact' element={<Contact/>}/>
     </Routes>
-
     </div>
   );
 }
