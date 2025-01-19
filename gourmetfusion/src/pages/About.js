@@ -66,13 +66,21 @@ const About = () => {
     </div>
 
     <div className="about-right-content">
-          <h3>Contact:</h3>
+          <h3>CONTACT :</h3>
           <p>
             Gourmet Fusion Foods<br />
             5840 Uplander Way<br />
             Culver City, CA 90230<br />
             Tel: 310.568.0038<br />
             cs@gourmetfusionfoods.com <br/>
+            <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.3107918645674!2d-118.38895752366012!3d33.98455002130043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b75165f9e417%3A0x31bbcfa9934fa209!2s5840%20Uplander%20Way%2C%20Culver%20City%2C%20CA%2090230%2C%20USA!5e0!3m2!1sen!2sin!4v1737287733761!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+        ></iframe>
           </p>
       </div>
    </div>
