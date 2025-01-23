@@ -1,8 +1,28 @@
 #carouselExampleCaptions{
     display: flex;
     justify-content: center;
-    height: 40rem;
+    height: 70vh;
     width: 80rem;
-    margin: auto;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+body{
+    background-color: white
+}
+.HomePageCard-container{
+    display: flex ;
+    width: 100vw;
+    height: 70vh;
+    justify-content: space-evenly;
+}
+.homePage-card{
+    height: 45rem !important;
+    width: 37rem !important;
+    margin-top: 4rem;
+    border: none;
+}
+.card-img{
+    height: 30rem;
+    width: 100%;
     
 }
