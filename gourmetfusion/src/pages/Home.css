@@ -1,0 +1,8 @@
+#carouselExampleCaptions{
+    display: flex;
+    justify-content: center;
+    height: 40rem;
+    width: 80rem;
+    margin: auto;
+    
+}
