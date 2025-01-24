@@ -109,7 +109,7 @@ const Contact = () => {
               Book a table
             </button>
             <button type="reset" className="btn btn-primary">
-              Rquest for Cancellation
+              Request for Cancellation
             </button>
           </div>
         </form>
