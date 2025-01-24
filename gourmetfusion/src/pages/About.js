@@ -2,6 +2,7 @@ import React from 'react';
 import fish from '../assets/Fish-Piccata-1.jpg'
 import burger from '../assets/tunaburger.webp'
 import grill from '../assets/images.jpeg'
+import './About.css'
 
 const About = () => {
   return (
