@@ -1,7 +1,7 @@
 import React from 'react'
 import gff from '../assets/gff.png'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+// import { useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import './Nav.css';
 
@@ -16,7 +16,9 @@ const Nav = ({hamBurger,setHamBurger}) => {
     <div className='nav'>
         <div className='left'>
             <Link to='/' className='navLink'>
-            <img src={gff}></img>
+            {/* <img src={gff}></img> */}
+            <img src={gff} alt="Website logo" />
+
             </Link>
         </div>
         <nav className='right'>

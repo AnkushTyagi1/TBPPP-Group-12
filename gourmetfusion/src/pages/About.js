@@ -8,7 +8,7 @@ const About = () => {
   return (
    <div className='about-container'>
     <div className='left-about'>
-      <h3>About</h3>
+      <h3><b>About</b></h3>
       <div className='about-desc'>
       We provide <strong>global seafood supply chain management solutions</strong> to retailers, foodservice distributors, and manufacturers throughout North America.
           <br />
@@ -74,7 +74,7 @@ const About = () => {
             Culver City, CA 90230<br />
             Tel: 310.568.0038<br />
             cs@gourmetfusionfoods.com <br/>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.89301739469!2d-118.40453509999998!3d33.918152899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b751276efc87%3A0x9294685e0d7b7db3!2sGourmet%20Fusion%20Foods!5e0!3m2!1sen!2sin!4v1737735778413!5m2!1sen!2sin" 
+            <iframe title="unique-description" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.89301739469!2d-118.40453509999998!3d33.918152899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b751276efc87%3A0x9294685e0d7b7db3!2sGourmet%20Fusion%20Foods!5e0!3m2!1sen!2sin!4v1737735778413!5m2!1sen!2sin" 
              width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 
              </iframe>
