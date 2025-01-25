@@ -3,6 +3,7 @@ import gff from '../assets/gff.png'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
+import './Nav.css';
 
 
 const Nav = ({hamBurger,setHamBurger}) => {
