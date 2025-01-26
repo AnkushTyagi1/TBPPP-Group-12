@@ -1,7 +1,11 @@
 .app__specialMenu {
     flex-direction: column;
-    background: var(--color-black);
+    /* background: var(--color-black); */
+    /* background-color: black; */
+    padding: 2rem;
 }
+
+
 
 .app__specialMenu-title {
     margin-bottom: 2rem;
