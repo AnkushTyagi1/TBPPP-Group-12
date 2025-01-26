@@ -10,7 +10,7 @@ const Sidebar = ({hamBurger,setHamBurger}) => {
   return (
       <div className='sideBar'
       style={{
-        transform: hamBurger ? "translateX(0%)" : "translateX(100%)",
+        transform: hamBurger ? "translateX(0%)" : "translateX(200%)",
         transition: "transform 0.3s ease",
         display: hamBurger ? "block" : "none"
       }}

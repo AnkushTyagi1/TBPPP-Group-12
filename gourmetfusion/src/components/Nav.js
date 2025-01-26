@@ -49,8 +49,8 @@ const Nav = ({hamBurger,setHamBurger}) => {
                     </li>
                 
                 <li>
-            <Link to='/contact' className='navLink'>
-                    ContactUs
+            <Link to='/feedback' className='navLink'>
+                    Feedback
             </Link>
                     </li>
                     
