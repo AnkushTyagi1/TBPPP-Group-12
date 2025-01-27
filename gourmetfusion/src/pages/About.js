@@ -57,7 +57,7 @@ const About = () => {
              </div>
              <div>
                <img src={fish} alt="Fish Piccata" />
-               <p className='para'>Fish (Swai Fillet) Piccata With Capers</p>
+               <p className='para'>Fish Piccata With Capers</p>
              </div>
              <div>
                <img src={burger} alt="Yellowfin Tuna Burger" />
