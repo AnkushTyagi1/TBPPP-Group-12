@@ -4,7 +4,7 @@ import './Home.css'
 const Home = () => {
   return (
     <>
-    <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" className="carousel slide w-75 m-auto mt-2" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -67,7 +67,7 @@ const Home = () => {
     {/* HomePage Cards */}
 
       <div className='HomePageCard-container'>
-          <div class="card homePage-card" style={{width: "18rem"}}>
+          <div class="card homePage-card" >
             <img src="./homePage-card.webp" class="card-img-top card-img" alt="Special-Dish"/>
             <div class="card-body">
               <h5 class="card-title">Specials</h5>
@@ -75,7 +75,7 @@ const Home = () => {
               <a href="/" class="btn btn-outline-secondary btn-lg">Place Order</a>
           </div>
           </div>
-          <div class="card homePage-card" style={{width: "18rem"}}>
+          <div class="card homePage-card" >
             <img src="./homePage-card-01.jpg" class="card-img-top card-img" alt="Special-Dish"/>
             <div class="card-body">
               <h5 class="card-title">Super Club</h5>
