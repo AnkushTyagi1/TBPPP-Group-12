@@ -1,217 +1,127 @@
-/* html, body {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-} */
 
-.reservation-container {
+.feedback-container {
     display: flex;
-    justify-content: space-between; /* Adds space between image and form */
-    align-items: center;
-    height: 90vh;
-    margin: 0 auto;
-    background: #f9f9f9; 
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 12px; 
-    overflow: hidden;
-    max-width: 1200px; /* Adjusted max width */
-    width: 90%; 
-}
-
-.content {
-    display: flex;
-    width: 100%;
-}
-
-.image-section {
-    width: 45%; /* Adjusted width for balance */
-    overflow: hidden;
-    display: flex; 
     justify-content: center;
     align-items: center;
-    background: #fff; /* Added background for better contrast */
-    border-right: 1px solid #ddd; /* Adds a divider */
-}
-
-.image-section img {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #704d4e, #ad604b);
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
     width: 100%;
-    height: auto; 
-    object-fit: cover;
-    border-radius: 12px 0 0 12px; /* Rounded corners on the left side */
-}
+    gap: 20px;
+  }
+  
 
-.form-section {
-    padding: 40px; 
+  .image-section {
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: #c4bebe;
-    border-radius: 0 12px 12px 0; /* Rounded corners on the right side */
-}
+    text-align: center;
+  }
+  
+  .feedback-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
 
-.form-section h1 {
-    font-size: 28px; 
-    color: #333;
+  .form-section {
+    flex: 1;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 26px;
     margin-bottom: 10px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.form-section p {
-    text-align: center;
-    color: #555;
-    margin-bottom: 20px;
-    font-size: 16px; /* Slightly larger font size for readability */
-}
-
-.reservation-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px; /* Reduced gap for tighter layout */
-}
-
-.form-row {
-    display: flex;
-    gap: 10px; /* Reduced gap for smaller screens */
-    flex-wrap: wrap;
-}
-
-.form-group {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 5px; /* Reduced margin for compactness */
-    color: #555;
-}
-
-label span {
-    color: red;
-}
-
-input,
-textarea {
-    padding: 10px; /* Reduced padding for compact inputs */
-    font-size: 14px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    outline: none;
-    transition: border-color 0.3s;
-}
-
-input:focus,
-textarea:focus {
-    border-color: #ff6f61;
-    box-shadow: 0 0 5px rgba(255, 111, 97, 0.3); 
-}
-
-textarea {
-    resize: none;
-}
-
-.button-group {
-    display: flex;
-    justify-content: space-between;
-    gap: 8px; 
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.btn {
-    padding: 10px 20px;
-    font-size: 14px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-}
-
-.btn-primary {
-    background: #ff6f61;
-    color: #fff;
-}
-
-.btn-primary:hover {
-    background: #e65c50;
-    transform: translateY(-2px);
-}
-
-.btn-secondary {
-    background: #ddd;
     color: #333;
-}
-
-.btn-secondary:hover {
-    background: #ccc;
-    transform: translateY(-2px);
-}
-
-/* Responsive Styles */
-@media (max-width: 992px) {
-    .reservation-container {
-        flex-direction: column;
-        height: auto;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #ff6f61;
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  
+  .button-group {
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background: #e64a45;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      text-align: center;
+      max-width: 90%;
+      padding: 20px;
     }
-
+  
     .image-section {
-        width: 100%; /* Full width for smaller screens */
-        border-right: none;
+      order: -1;
     }
-
-    .form-section {
-        padding: 30px;
-        max-width: 600px;
-        margin: 0 auto;
+  
+    h1 {
+      font-size: 22px;
     }
-}
-
-@media (max-width: 768px) {
-    .form-section {
-        padding: 20px;
+  
+    input,
+    textarea {
+      font-size: 14px;
     }
-
-    .form-section h1 {
-        font-size: 24px;
+  
+    .btn-primary {
+      font-size: 14px;
     }
-
-    .form-section p {
-        font-size: 14px;
-    }
-
-    .form-row {
-        gap: 10px;
-    }
-}
-
-@media (max-width: 576px) {
-    .reservation-container {
-        margin: 0 15px;
-    }
-
-    .form-section {
-        padding: 15px;
-    }
-
-    .form-group label {
-        font-size: 12px;
-    }
-
-    .btn {
-        padding: 10px;
-        font-size: 14px;
-    }
-
-    .button-group {
-        flex-direction: column;
-    }
-
-    .btn {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-}
+  }
+  
