@@ -1,7 +1,6 @@
 .app__menuitem {
     width: 100%;
     margin: 1rem 0;
-
     display: flex;
     flex-direction: column;
 }
@@ -10,11 +9,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: left;
 }
 
 .app__menuitem-sub {
     width: 100%;
-    margin-top: 0.2rem;
+    margin-top: 0.5rem;
+    text-align: left;
 }
 
 .app__menuitem-name {

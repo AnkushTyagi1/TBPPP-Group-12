@@ -11,7 +11,7 @@ import Sidebar from './components/Sidebar';
 
 function App() {
   const [hamBurger,setHamBurger]=useState(false);
-  const [temp,setTemp]=useState('about');
+  // const [temp,setTemp]=useState('about');
   return (
     <div className="App" >
      <Nav  hamBurger={hamBurger} setHamBurger={setHamBurger}/>
@@ -21,7 +21,7 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/product' element={<Product/>}/>
       <Route path='/sustainability' element={<Sustainability/>}/>
-      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/feedback' element={<Contact/>}/>
     </Routes>
     </div>
   );

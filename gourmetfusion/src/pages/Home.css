@@ -1,8 +1,64 @@
-#carouselExampleCaptions{
+#carouselExampleCaptions {
     display: flex;
     justify-content: center;
-    height: 40rem;
-    width: 80rem;
-    margin: auto;
+    height: 70vh;
+    width: 100%;
+    max-width: 80rem;
+    margin: 1rem auto;
+}
+
+body {
+    background-color: rgb(66, 28, 28);
+}
+
+.HomePageCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
     
+}
+
+.homePage-card {
+    width: 100%;
+    max-width: 22rem;
+    height: auto;
+    border: none;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    
+    .HomePageCard-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .homePage-card {
+        width: 100%;
+        max-width: 90%;
+    }
+    .carousel-indicators{
+        position: absolute;
+        top: 50%;
+    }
+    .carousel-control-prev{
+        height: 80%;
+    }
+    .carousel-control-next{
+        height: 80%;
+    }
+    #carouselExampleCaptions {
+        height: 50vh;
+        width: 90%;
+    }
+    .carousel-item img {
+        height: 100%;
+    }
 }
