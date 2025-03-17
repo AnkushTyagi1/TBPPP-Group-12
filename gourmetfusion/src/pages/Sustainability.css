@@ -7,7 +7,7 @@
     padding: 50px;
     height: auto;
     flex-wrap: wrap;
-    height: 150vh;
+    height: 280vh;
   }
   
   .text-section {
@@ -33,6 +33,11 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+  }
+
+  video{
+    margin-top: 2%;
+    width: 100%;
   }
   
   .award-number {
@@ -64,7 +69,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2px;
   }
   
   .slider-image {
@@ -140,6 +144,10 @@
     .right{
         right: 5px;
     }
+    video{
+      margin-top: 10%;
+      
+    }
   }
   
   /* Mobile Phones */
@@ -174,6 +182,10 @@
     }
     .right{
         right: 100px;
+    }
+    video{
+      margin-top: 10%;
+      
     }
   }
   

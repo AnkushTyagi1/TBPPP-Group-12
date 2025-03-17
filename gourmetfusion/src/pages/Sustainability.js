@@ -4,6 +4,7 @@ import food1 from "../assets/gallery01.png";
 import food2 from "../assets/gallery02.png";
 import food3 from "../assets/gallery03.png";
 import food4 from "../assets/gallery04.png";
+import video from "../assets/video.mp4";
 
 const Sustainability = () => {
   const awards = [
@@ -53,6 +54,9 @@ const Sustainability = () => {
           &#8594;
         </button>
       </div>
+      <video autoPlay  controls>
+        <source src={video} type="video/mp4"/>
+      </video>
     </div>
   );
 };
