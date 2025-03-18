@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Product from './pages/Product';
 import { useState } from 'react';
 import Sidebar from './components/Sidebar';
+import Thankyou from './pages/Thankyou';
 
 function App() {
   const [hamBurger,setHamBurger]=useState(false);
@@ -22,6 +23,7 @@ function App() {
       <Route path='/product' element={<Product/>}/>
       <Route path='/sustainability' element={<Sustainability/>}/>
       <Route path='/feedback' element={<Contact/>}/>
+      <Route path='/thank-you' element={<Thankyou/>}/>
     </Routes>
     </div>
   );

@@ -14,11 +14,11 @@ const Contact = () => {
     setFormData({ ...formData, [event.target.id]: event.target.value });
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log("Feedback Submitted", formData);
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   console.log("Feedback Submitted", formData);
 
-  };
+  // };
 
   return (
     <div className="feedback-container">
@@ -29,11 +29,11 @@ const Contact = () => {
         <div className="form-section">
           <h1>Hotel Feedback</h1>
           <p>We value your feedback</p>
-          <form className="feedback-form" onSubmit={handleSubmit}>
-            <input type="text" id="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />
-            <input type="email" id="email" placeholder="Your Email" value={formData.email} onChange={handleChange} required />
-            <input type="date" id="date" value={formData.date} onChange={handleChange} required />
-            <textarea id="feedback" rows="4" placeholder="Your Feedback" value={formData.feedback} onChange={handleChange} required></textarea>
+          <form className="feedback-form" method="post" action={"https://formsubmit.co/amankuntal9599@gmail.com"}>
+          <input type="hidden" name="_next" value="http://localhost:3000/thank-you" />
+            <input type="text" id="name" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} required />
+            <input type="email" id="email" name="email" placeholder="Your Email" value={formData.email} onChange={handleChange} required />
+            <textarea id="feedback" rows="4" name="feedback" placeholder="Your Feedback" value={formData.feedback} onChange={handleChange} required></textarea>
             <div className="button-group">
               <button type="submit" className="btn btn-primary">Submit Feedback</button>
             </div>
