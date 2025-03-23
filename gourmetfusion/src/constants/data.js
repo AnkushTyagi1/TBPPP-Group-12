@@ -1,5 +1,4 @@
 import images from './images';
-
 const wines = [
   {
     title: 'Chapel Hill Shiraz',
@@ -79,6 +78,57 @@ const awards = [
   },
 ];
 
-const menuData = { wines, cocktails, awards };
+// const foodItems = [
+//   {
+//     id: 1,
+//     title: 'Paneer Tikka',
+//     category: 'veg',
+//     price: '₹180',
+//     description: 'Grilled paneer cubes with spices',
+//     image: 'https://source.unsplash.com/300x200/?paneer'
+//   },
+//   {
+//     id: 2,
+//     title: 'Chicken Biryani',
+//     category: 'non-veg',
+//     price: '₹220',
+//     description: 'Aromatic basmati rice with chicken',
+//     image: 'https://source.unsplash.com/300x200/?biryani'
+//   },
+//   {
+//     id: 3,
+//     title: 'Lemonade',
+//     category: 'beverages',
+//     price: '₹60',
+//     description: 'Freshly squeezed lemon juice with mint',
+//     image: 'https://source.unsplash.com/300x200/?lemonade'
+//   },
+//   {
+//     id: 4,
+//     title: 'French Fries',
+//     category: 'sides',
+//     price: '₹80',
+//     description: 'Crispy golden fries with ketchup',
+//     image: 'https://source.unsplash.com/300x200/?fries'
+//   },
+//   {
+//     id: 5,
+//     title: 'Veg Manchurian',
+//     category: 'veg',
+//     price: '₹160',
+//     description: 'Spicy Indo-Chinese veg balls in sauce',
+//     image: 'https://source.unsplash.com/300x200/?manchurian'
+//   },
+//   {
+//     id: 6,
+//     title: 'Butter Chicken',
+//     category: 'non-veg',
+//     price: '₹250',
+//     description: 'Creamy tomato-based chicken curry',
+//     image: 'https://source.unsplash.com/300x200/?butter-chicken'
+//   }
+// ];
+
+const menuData = {wines, cocktails, awards};
 
 export default menuData;

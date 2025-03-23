@@ -16,25 +16,16 @@ const Home = () => {
         <div class="carousel-item active h-75 rounded-4" data-bs-interval="3000">
           <img src="./Home-Slider-01.jpg" class="d-block w-100 object-fit-cover rounded-4" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-            <button className='btn btn-outline-light'>Order</button>
           </div>
         </div>
         <div class="carousel-item h-75 rounded-4" data-bs-interval="3000">
           <img src="./Home-Slider-02.jpg" class="d-block w-100 object-fit-cover rounded-4" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-            <button className='btn btn-outline-light'>Order</button>
           </div>
         </div>
         <div class="carousel-item h-75 rounded-4" data-bs-interval="3000">
           <img src="./Home-Slider-03.jpg" class="d-block w-100 rounded-4 object-fit-cover" alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-            <button className='btn btn-outline-light'>Order</button>
           </div>
         </div>
         {/* <div class="carousel-item h-75 rounded-4" data-bs-interval="3000">
@@ -47,9 +38,6 @@ const Home = () => {
         <div class="carousel-item h-75 rounded-4" data-bs-interval="3000">
           <img src="./Home-Slider-05.jpg" class="d-block w-100 rounded-4 object-fit-cover " alt="..." />
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-            <button className='btn btn-outline-light'>Order</button>
           </div>
         </div>
       </div>
@@ -72,7 +60,7 @@ const Home = () => {
             <div class="card-body">
               <h5 class="card-title">Specials</h5>
               <p class="card-text">Pitmaster Rob is always up to something! Check out our rotating specialty sandwiches and limited drops, including a Limited Time Only Monthly Chef's Special that will leave you craving for more!</p>
-              <a href="/" class="btn btn-outline-secondary btn-lg">Place Order</a>
+              {/* <a href="/" class="btn btn-outline-secondary btn-lg">Place Order</a> */}
           </div>
           </div>
           <div class="card homePage-card" >
@@ -80,7 +68,7 @@ const Home = () => {
             <div class="card-body">
               <h5 class="card-title">Super Club</h5>
               <p class="card-text">Once a month, Chef & Pitmaster Rob Sonderman presents a new 4-course dine-in experience that goes beyond our regular offerings and puts a smoky spin on gourmet cuisine.</p>
-              <a href="/" class="btn btn-outline-secondary btn-lg">Place Order</a>
+              {/* <a href="/" class="btn btn-outline-secondary btn-lg">Place Order</a> */}
             </div>
           </div>
       </div>

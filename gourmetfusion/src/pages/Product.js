@@ -6,7 +6,6 @@ import images from '../constants/images'
 import "./Product.css";
 import ChefWord from '../components/ChefWord'
 import bg from '../assets/bg.png'
-
 const Product = () => {
   return (
     <div className="app__specialMenu flex__center section__padding" id="menu" style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
@@ -43,5 +42,4 @@ const Product = () => {
   </div>
   )
 }
-
 export default Product
