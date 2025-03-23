@@ -9,6 +9,8 @@ import Product from './pages/Product';
 import { useState } from 'react';
 import Sidebar from './components/Sidebar';
 import Thankyou from './pages/Thankyou';
+import MenuCard from './components/MenuCard'; 
+
 
 function App() {
   const [hamBurger,setHamBurger]=useState(false);
@@ -19,6 +21,7 @@ function App() {
     <Sidebar  hamBurger={hamBurger} setHamBurger={setHamBurger}/>
     <Routes>
       <Route path='/' element={<Home/>}/>
+      <Route path='/menu' element={<MenuCard />} />
       <Route path='/about' element={<About/>}/>
       <Route path='/product' element={<Product/>}/>
       <Route path='/sustainability' element={<Sustainability/>}/>

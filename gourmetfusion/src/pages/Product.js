@@ -11,7 +11,7 @@ const Product = () => {
     <div className="app__specialMenu flex__center section__padding" id="menu" style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
     <div className="app__specialMenu-title">
       <SubHeading title="Menu that fits your palatte" />
-      <h1 className="headtext__cormorant" style={{color:'yellow', fontFamily:'cursive'}}>Today&apos;s Special</h1>
+      <h1 className="headtext__cormorant" style={{color:'yellow', fontFamily:'cursive'}}>Our Best Products</h1>
     </div>
 
     <div className="app__specialMenu-menu">

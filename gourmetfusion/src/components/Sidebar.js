@@ -45,7 +45,11 @@ const handleResize = () => {
                     Home
             </Link>
                     </li>
-                
+                <li>
+            <Link to='/menu' className='navLink' onClick={toggleSideBar}>
+                    MenuCard
+            </Link>
+                    </li>
                 <li>
             <Link to='/about' className='navLink' onClick={toggleSideBar}>
                     About

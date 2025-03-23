@@ -29,6 +29,11 @@ const Nav = ({hamBurger,setHamBurger}) => {
                     Home
             </Link>
                     </li>
+                    <li>
+            <Link to='/menu' className='navLink'>
+                    MenuCard
+            </Link>
+                    </li>    
                 
                 <li>
             <Link to='/about' className='navLink'>
@@ -38,7 +43,7 @@ const Nav = ({hamBurger,setHamBurger}) => {
                 
                 <li>
             <Link to='/product' className='navLink'>
-                    Product
+                    Highlights
             </Link>
                     </li>
                 
