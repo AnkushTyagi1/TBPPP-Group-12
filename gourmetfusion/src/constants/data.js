@@ -1,6 +1,5 @@
-import images from './images';
 
-const wines = [
+const icecream = [
   {
     title: 'Kulfi',
     price: '₹60',
@@ -22,8 +21,8 @@ const wines = [
     tags: 'Stick | Chocolate coated',
   },
   {
-    title: 'Cassata',
-    price: '₹70',
+    title: 'Butter scotch',
+    price: '₹100',
     tags: 'Slice | Mixed flavours',
   },
 ];
@@ -56,6 +55,6 @@ const cocktails = [
   },
 ];
 
-const menuData = { wines, cocktails };
+const menuData = { icecream, cocktails };
 
 export default menuData;

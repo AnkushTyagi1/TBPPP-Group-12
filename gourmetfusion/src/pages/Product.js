@@ -16,10 +16,10 @@ const Product = () => {
 
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_wine  flex__center">
-        <p className="app__specialMenu-menu_heading"  style={{color:'white', fontFamily:'cursive'}}>Wine & Beer</p>
+        <p className="app__specialMenu-menu_heading"  style={{color:'white', fontFamily:'cursive'}}>Ice creams</p>
         <div className="app__specialMenu_menu_items">
-          {data.wines.map((wine, index) => (
-            <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
+          {data.icecream.map((icecream, index) => (
+            <MenuItem key={icecream.title + index} title={icecream.title} price={icecream.price} tags={icecream.tags} />
           ))}
         </div>
       </div>
