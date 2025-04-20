@@ -1,134 +1,61 @@
 import images from './images';
+
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '₹1450',
-    tags: 'AU | Bottle',
+    title: 'Kulfi',
+    price: '₹60',
+    tags: 'Matka | 100 ml',
   },
   {
-    title: 'Catena Malbee',
-    price: '₹1000',
-    tags: 'AU | Bottle',
+    title: 'Rajbhog Ice Cream',
+    price: '₹80',
+    tags: 'Cup | Saffron | Dry fruits',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '₹900',
-    tags: 'FR | 750 ml',
+    title: 'Mango Dolly',
+    price: '₹50',
+    tags: 'Stick | Real mango flavour',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '₹550',
-    tags: 'CA | 750 ml',
+    title: 'Choco Bar',
+    price: '₹40',
+    tags: 'Stick | Chocolate coated',
   },
   {
-    title: 'Irish Guinness',
-    price: '₹290',
-    tags: 'IE | 750 ml',
+    title: 'Cassata',
+    price: '₹70',
+    tags: 'Slice | Mixed flavours',
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '₹500',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Desi Mojito',
+    price: '₹100',
+    tags: 'Mint | Soda | Lemon | 30 ml',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '₹250',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Kala Khatta Twist",
+    price: '₹150',
+    tags: 'Kala khatta syrup | Vodka | Lime',
   },
   {
-    title: 'Daiquiri',
-    price: '₹300',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Masala Nimbu Pani',
+    price: '₹100',
+    tags: 'Lemon | Masala | Soda | Mint',
   },
   {
-    title: 'Old Fashioned',
+    title: 'Kaccha Aam Margarita',
     price: '₹190',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    tags: 'Raw mango | Tequila | Chilli salt',
   },
   {
-    title: 'Negroni',
-    price: '₹300',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Coconut Punch',
+    price: '₹200',
+    tags: 'Coconut water | White rum | Mint',
   },
 ];
 
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-];
-
-// const foodItems = [
-//   {
-//     id: 1,
-//     title: 'Paneer Tikka',
-//     category: 'veg',
-//     price: '₹180',
-//     description: 'Grilled paneer cubes with spices',
-//     image: 'https://source.unsplash.com/300x200/?paneer'
-//   },
-//   {
-//     id: 2,
-//     title: 'Chicken Biryani',
-//     category: 'non-veg',
-//     price: '₹220',
-//     description: 'Aromatic basmati rice with chicken',
-//     image: 'https://source.unsplash.com/300x200/?biryani'
-//   },
-//   {
-//     id: 3,
-//     title: 'Lemonade',
-//     category: 'beverages',
-//     price: '₹60',
-//     description: 'Freshly squeezed lemon juice with mint',
-//     image: 'https://source.unsplash.com/300x200/?lemonade'
-//   },
-//   {
-//     id: 4,
-//     title: 'French Fries',
-//     category: 'sides',
-//     price: '₹80',
-//     description: 'Crispy golden fries with ketchup',
-//     image: 'https://source.unsplash.com/300x200/?fries'
-//   },
-//   {
-//     id: 5,
-//     title: 'Veg Manchurian',
-//     category: 'veg',
-//     price: '₹160',
-//     description: 'Spicy Indo-Chinese veg balls in sauce',
-//     image: 'https://source.unsplash.com/300x200/?manchurian'
-//   },
-//   {
-//     id: 6,
-//     title: 'Butter Chicken',
-//     category: 'non-veg',
-//     price: '₹250',
-//     description: 'Creamy tomato-based chicken curry',
-//     image: 'https://source.unsplash.com/300x200/?butter-chicken'
-//   }
-// ];
-
-const menuData = {wines, cocktails, awards};
+const menuData = { wines, cocktails };
 
 export default menuData;

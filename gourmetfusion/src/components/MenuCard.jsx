@@ -2,6 +2,39 @@ import React from 'react';
 import './MenuCard.css';
 
 const menuData = {
+  Cocktails: [
+    {
+      name: 'Desi Mojito',
+      price: '₹100',
+      image: 'https://i0.wp.com/www.blissofcooking.com/wp-content/uploads/2017/01/Desi-Mojito-Feature.jpg?fit=862%2C719&ssl=1',
+    },
+    {
+      name: 'Kala Khatta Twist',
+      price: '₹150',
+      image: 'https://hitkary.in/cdn/shop/files/AMAZONESHOPFRONT-07.jpg?v=1707467257',
+    },
+    {
+      name: 'Masala Nimbu Pani',
+      price: '₹100',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5phFAbF0tBF4-o2WTgiUHcxUNMpx_wGDvQA&s',
+    },
+    {
+      name: 'Negroni',
+      price: '₹200',
+      image: 'https://cdn.shopify.com/s/files/1/0488/6642/7045/files/CP_Cocktail_Negroni_600x600.png?v=1648831385',
+    },
+    {
+      name: 'Kaccha Aam Margarita',
+      price: '₹190',
+      image: 'https://spicecravings.com/wp-content/uploads/2022/05/Aam-Panna-LS.jpg',
+    },
+    {
+      name: 'Coconut Punch',
+      price: '₹200',
+      image: 'https://www.marathonsandmotivation.com/wp-content/uploads/2021/06/Coconut_Punch_with_cinnamon_and_coconut_on_top.jpg',
+    },
+  ],
+
   Veg: [
     {
       name: 'Paneer Butter Masala',
@@ -129,7 +162,40 @@ const menuData = {
       price: '₹15',
       image: 'https://tse1.mm.bing.net/th?id=OIP.remTCGA4mxc_iO9KUk1gSwHaE8&pid=Api&P=0&h=180'
     }
-  ]
+  ],
+  IceCreams: [
+    {
+      name: 'Kulfi',
+      price: '₹60',
+      image: 'https://www.archanaskitchen.com/images/archanaskitchen/Indian_Sweets_Mithai/Kesar_Pista_Kulfi_Recipe_Indian_Ice_Cream-1-2_400.jpg',
+    },
+    {
+      name: 'Rajbhog Ice Cream',
+      price: '₹80',
+      image: 'https://5.imimg.com/data5/SELLER/Default/2022/9/GA/ZK/WV/3180617/rajbhog-ice-cream-flavour.jpg',
+    },
+    {
+      name: 'Mango Dolly',
+      price: '₹50',
+      image: 'https://cgs-cdn.sgp1.digitaloceanspaces.com/dairy-day/wp-content/uploads/2023/06/07150206/8906010910112-alphonso-mango-candy-3-1536x1152.jpg',
+    },
+    {
+      name: 'Choco Bar',
+      price: '₹40',
+      image: 'https://gambhoimart.com/wp-content/uploads/2023/07/PhotoRoom-20230715_154530.png.webp',
+    },
+    {
+      name: 'Cassata',
+      price: '₹70',
+      image: 'https://assets.unileversolutions.com/v1/1862830.png',
+    },
+    {
+      name: 'Butter scotch',
+      price: '₹100',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE3n9_qjRgWF7OeIQ2_1EzX4pty3dvq41icA&s',
+    }
+  ],
+  
 };
 
 const MenuCard = () => {
@@ -146,7 +212,7 @@ const MenuCard = () => {
                   <img src={item.image} alt={item.name} className="menu-img" />
                   <div className="menu-info">
                     <h3>{item.name}</h3>
-                    <p>{item.price}</p>
+                  <p>{item.price}</p>
                   </div>
                 </div>
               ))}
